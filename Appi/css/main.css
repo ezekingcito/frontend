@@ -1,0 +1,167 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.pagination-button {
+    background-color: #0f0;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 0 5px;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+
+.pagination-button:hover {
+    background-color: #0a0;
+}
+
+.current-page {
+    font-weight: bold;
+    color: #0f0;
+    font-size: 1.2em;
+    margin: 0 10px;
+}
+
+
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+.btn-header {
+    background-color: #0f0;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+
+.btn-header:hover {
+    background-color: #0a0;
+}
+
+.pokemon {
+    border: 2px solid #0f0;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+    box-shadow: 0 0 10px #0f0;
+}
+
+.pokemon .pokemon-imagen img {
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+    border: 2px solid #0f0;
+    box-shadow: 0 0 10px #0f0;
+}
+
+.pokemon .nombre-contenedor {
+    text-align: center;
+}
+
+.pokemon .pokemon-id {
+    font-size: 1.2em;
+}
+
+.pokemon .pokemon-nombre {
+    font-size: 2em;
+}
+
+.pokemon-tipos {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.pokemon-tipos .tipo {
+    display: inline-block;
+    background-color: #0f0;
+    color: #000;
+    padding: 5px 10px;
+    margin: 0 5px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.pokemon-stats {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.pokemon-stats .stat {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 1.2em;
+}
+
+.sidebar-container {
+    position: fixed;
+    top: 0;
+    left: -200px;
+    width: 200px;
+    height: 100%;
+    background-color: #0f0;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: left 0.3s ease;
+}
+
+#toggleSidebar {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    background-color: #0f0;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#toggleSidebar:hover {
+    background-color: #0a0;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.pagination button {
+    background-color: #0f0;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 0 5px;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+
+.pagination button:hover {
+    background-color: #0a0;
+}
+
+#currentPage {
+    font-weight: bold;
+    color: #0f0;
+    font-size: 1.2em;
+    margin: 0 10px;
+}
